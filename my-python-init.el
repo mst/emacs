@@ -1,8 +1,7 @@
-
 (load "python.el")
 (add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
 
-(require 'auto-complete)
+;; (require 'auto-complete)
 (require 'lambda-mode)
 (add-hook 'python-mode-hook #'lambda-mode 1)
 
