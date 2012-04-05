@@ -1,0 +1,27 @@
+;; Object marcelsteinbach/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "marcelsteinbach/"
+  :tables (list 
+   (semanticdb-table "test.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("os" include nil nil [1 10]))          
+    :file "test.py"
+    :pointmax 16
+    :fsize 0
+    :lastmodtime '(20337 25735)
+    :unmatched-syntax '((NAME 12 . 14) (PERIOD 15 . 16) (NAME 12 . 14) ($EOI 15 . 15) (NAME 12 . 14) ($EOI 14 . 14) (NAME 12 . 14) ($EOI 14 . 14) (NAME 12 . 14) ($EOI 15 . 15) (NAME 12 . 14) ($EOI 15 . 15))
+    )
+   (semanticdb-table "py.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("os" include nil nil [1 10]))          
+    :file "py.py"
+    :pointmax 15
+    :unmatched-syntax '((NAME 12 . 14) ($EOI 15 . 15) ($EOI 5 . 5) ($EOI 6 . 6))
+    )
+   )
+  :file "!Users!marcelsteinbach!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

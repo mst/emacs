@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ x != x"$@" ]; then
+  emacsclient --alternate-editor="/opt/local/bin/emacs" -n "$@" 2&>1 &
+else 
+  /opt/local/bin/emacs &
+fi
